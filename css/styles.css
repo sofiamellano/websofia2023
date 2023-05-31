@@ -1,0 +1,13 @@
+h1 {
+    border: solid 2px black;
+    background-color: bisque;
+    text-align: center;
+    padding: 15px;
+}
+#PieDePagina {
+    box-shadow: 10px 4px 8px blue;
+    padding: 5px 20px;
+    margin: 10px;
+    background-color: skyblue;
+    border-radius: 8px;
+}
