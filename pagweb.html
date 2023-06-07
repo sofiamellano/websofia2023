@@ -21,22 +21,23 @@
     <p> Probamos la etiqueta IMG e insertamos foto de Clarin</p> 
     <code>&lt;img src="imagenes/clarin.png"  alt="imagen del logo de Clarin" width="500px"&gt;</code> 
     <br> <!--hace un salto de pagina-->
-    <br> <img src="imagenes/clarin.png" alt="imagen del logo de clarin" width="500px"> 
+    <br> <img src="imagenes/clarin.png" alt="imagen del logo de clarin" width="150px"> 
     <hr> <!-- hr inserta una linea horizntal-->
     <p>Probamos la etiqueta A que permite crear enlaces</p>
     <p>Creamos un enlace a Clarin</p>
-    <br> <a href="https://www.clarin.com" target="_blank">Clic aqui</a> <!--en la etiqueta A el atributo src nos permite colocar la direccion hacia donde nos conecta el enace. Se nececita para la A si o si contenido. Blank abre otra ventana en el navegador-->
+    <br> <a href="https://www.clarin.com" target="_blank">Clic aqui</a> <!--en la etiqueta A el atributo src nos permite colocar la direccion hacia donde nos conecta el enlace. Se nececita para la A si o si contenido. Blank abre otra ventana en el navegador-->
     <p>Probamos probar un enlace donde la imagen se pueda pulsar</p>
-    <br> <a href="https://www.clarin.com" target="_blank"> <img src="imagenes/clarin.png" alt="imagen del logo de Clarin" width="500px"></a> <!--hicimos que la imagen sea el link a la pagina--> 
+    <br> <a href="https://www.clarin.com" target="_parent"> <img src="imagenes/clarin.png" alt="imagen del logo de Clarin" height="50px"></a> <!--hicimos que la imagen sea el link a la pagina--> 
+    <br> <h3>Probando tablas</h3>
     <div id="etiquetasDeBloque">
-        <p>Paises que juegan en la zona de Argentina en el Mundial Sub 20</p>
+        <p>Paises que juegan en la zona de <span class="Destacado">Argentina</span> en el <span> Mundial Sub 20</span></p>
         <ul> <!--lista desordenada-->
-            <li> Argentina</li>
+            <li class="Destacado">Argentina</li>
             <li>Nueva Zelanda</li>
             <li>Guatemala</li>
             <li>Uzbequistan</li>
         </ul>
-        <p>Paises que juegan en la zona de Brasil del Mundial Sub 20</p>
+        <p>Paises que juegan en la zona de Brasil del <span>Mundial Sub 20</span> </p>
         <ol> <!--lista ordenada-->
             <li>Brasil</li>
             <li>Nigeria</li>
@@ -124,7 +125,7 @@
                 </td>
             </tr>
             <tr>
-                <th colspan="4">Instituto N°20</th>
+                <th colspan="4" class="Destacado">Instituto N°20</th>
             </tr>
         </table>  
     </div>

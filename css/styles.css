@@ -1,13 +1,64 @@
-h1 {
-    border: solid 2px black;
+/*SELECTORES*/
+
+/*UNIVERSAL: SELECCIONA TODOS LOS ELEMENTOS*/
+* {
+    /*color: "cualquier colot";*/
+}
+
+* [border~="double"] {
+    color: crimson !important;
+}
+
+/*ETIQUETA:SELECCIONA TODOS LO ELEMENTOS CUYA ETIQUETA HTML COINCIDE CON EL VALOR SELECCIONADO*/
+h1,h2,h3 {
+    border: solid 2px ;
     background-color: bisque;
     text-align: center;
     padding: 15px;
 }
-#PieDePagina {
+
+/*SELECTOR DECENDENTE: SELECCIONA ELEMENTOS QUE ESTAN DENTRO DE OTRO ELEMENTO*/
+p span {
+    border: double 4px;
+    background-color: rgb(77, 221, 183);
+}
+#etiquetasDeBloque ul li {
+    text-decoration: underline;
+    color: rgb(74, 236, 59);
+}
+/*SELECTOR DE CLASE: */
+.Destacado {
+    background-color: chocolate;
+}
+.Destacado:hover {
+    width: 120%;
+}
+
+/*SELECTOR ID:*/
+#PieDePagina /**/{ 
     box-shadow: 10px 4px 8px blue;
     padding: 5px 20px;
     margin: 10px;
     background-color: skyblue;
     border-radius: 8px;
+}
+
+/*SELECTOR DE HIJOS*/
+div > p {
+    font-style: italic;
+}
+
+/*SELECTOR ADYACENTE*/
+p + ol {
+    background-color: aqua;
+}
+
+/*SELECTORES DE ATRIBUTOS*/
+img[width] {
+    border-radius: 40px; /* borde redondeado*/
+    border: solid 1px ;
+}
+
+a[target="_blank"] {
+    text-transform: uppercase; /*trasforma a mayuscula*/
 }
