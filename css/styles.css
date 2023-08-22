@@ -62,3 +62,7 @@ img[width] {
 a[target="_blank"] {
     text-transform: uppercase; /*trasforma a mayuscula*/
 }
+#PieDePagina:hover {
+    background-color: rgb(74, 236, 59);
+}
+
